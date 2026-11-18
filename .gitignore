@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- RPI LAUNCHER runtime data (never commit) ---
+.minecraft/
+minecraft_data/
+config.json
+
+# --- OS / editor temp files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+*.tmp
+*.log
+.idea/
+.vscode/
